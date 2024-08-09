@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: black;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+  }
+  
+  .header .logo {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 20rem;
+  }
+  
+  .header .logo i {
+    color: #fff;
+    padding: 0.5rem;
+  }
+  
+  .header .navbar a {
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    color: #fff;
+  }
+  
+  .header .navbar a:hover {
+    color: #baa6cf;
+  }
+  
+  .btn {
+    margin-top: 2rem;
+    width: 150px;
+    padding: 12px;
+    color: #fff;
+    background: rgb(198, 2, 2);
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: rgba(156, 95, 95, 0.76);
+    transition: 0.4s;
+  }
+  
+  .header .btn {
+    background: transparent;
+    color: red;
+    border: 1px solid red;
+    font-size: 12px;
+    padding: 8px;
+  }
+  .btn{
+    background : red;
+  }
+  /* Home Section */
+  .max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+  section{
+    padding: 50px 0 50px 0;
+  }
+  .home {
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;  
+  }
+
+.home .max-width {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.home .home-content {
+  width: 60%; 
+  padding: 2rem;
+}
+
+.home h3{
+    color: #fff;
+    margin-top: 6rem;
+    font-size: 5rem;
+    font-family: 'Philospher' sans-serif;
+}
+.home pre {
+    color: #fff;  
+    margin-top: 1rem;
+    font-size: 20px;  
+    padding: 1rem;  
+   
+  }
+
+.home .home-image {
+  width: 30%;
+  height: auto;
+  margin: 2rem;
+  border-radius: 10px;
+  border: 5px solid red; /
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.home .home-image:hover {
+  animation: glow 0.5s ease-in-out infinite; 
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px red;;
+  }
+  50% {
+    box-shadow: 0 0 20px red;
+  }
+  100% {
+    box-shadow: 0 0 10px red;
+  }
+}
+  .home .home-image img {
+    width: 100%;  
+    height: auto;  
+    border-radius: 10px;  
+  }
+.home-image {
+    
+    position: absolute;
+   
+    top: 50%;
+    right: 10%;
+    transform: translateY(-40%);
+    text-align: right;
+  }
